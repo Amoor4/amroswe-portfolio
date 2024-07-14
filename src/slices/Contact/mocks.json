@@ -1,0 +1,28 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "farmer",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"mobile_phone",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "seat",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]
