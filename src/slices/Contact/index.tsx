@@ -34,9 +34,6 @@ const Contact = ({ slice }: ContactProps): JSX.Element => {
           <span className="text-3xl font-extralight">:  <Link  href="mailto:amroabouelezswe@gmail.com">amroabouelezswe@gmail.com</Link> </span>
         </div>
         
-        <div className="prose prose-lg prose-invert mt-4">
-          <PrismicRichText field={item.description} />
-        </div>
       </div>
     ))}
   </Bounded>
