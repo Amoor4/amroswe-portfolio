@@ -15,10 +15,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: homepage.last_publication_date,
   };
 
-  const contactRoute = {
-    url: siteRoot,
-    lastModified: contact.last_publication_date,
-  };
 
   const pagesRoutes = pages.map((page) => ({
     url: siteRoot + "/" + page.uid,
